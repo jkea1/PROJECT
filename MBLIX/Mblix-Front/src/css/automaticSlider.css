@@ -1,0 +1,32 @@
+@keyframes scroll{
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(calc(-250px * 7));
+    }
+}
+
+.loginSlider {
+    height: 100px;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+.loginSlide, .loginSlideTrack {
+    animation: scroll 400s linear infinite;
+    display: flex;
+    width: 100%, calc(250px * 14);
+}
+
+.loginSlider {
+    height: 170px;
+    width: 100%;
+}
+
+.loginSlide {
+    margin-right: 20px;
+}
+

@@ -1,0 +1,37 @@
+.login-button {
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px;
+    cursor: pointer;
+}
+
+.nav-section {
+    display: flex;
+    justify-content: center;
+}
+
+.menu-list {
+    display: flex;
+    list-style-type: none;
+
+}
+
+.menu-list li {
+    padding: 10px;
+}
+
+.menu-area {
+    display: flex;
+    justify-content: center;
+
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+}
+
+.product-img {
+    display: flex;
+    justify-content: flex-end;
+}

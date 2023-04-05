@@ -1,0 +1,20 @@
+body {
+  background: url(https://img.freepik.com/free-vector/blue-sky-with-shiny-clouds-background_1017-23279.jpg?w=360);
+  height:100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container{
+  display: flex;
+  justify-content: center; /* 가로 가운데 정렬 */
+  align-items: center; /* 세로 가운데 센터 */
+  height: 100vh;
+  flex-direction: column;
+}
+
+.weather-box {
+  border: 2px solid whitesmoke;
+  padding: 50px; /* 상자 안쪽 공간 */
+  border-radius: 30px;
+  background-color: whitesmoke; 
+}

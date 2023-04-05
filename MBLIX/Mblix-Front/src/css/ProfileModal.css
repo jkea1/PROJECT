@@ -1,0 +1,47 @@
+.homeProfileImg {
+    width: 50px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.profileModal_main {
+    display:flex;
+    flex-direction : column ;
+    
+}
+.profileDetail, .userLikeMovie {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profileDetail {
+    margin: 20px;
+}
+
+.userLikeMovie  {
+    margin: 20px;
+    
+}
+.ProfileModal {
+    background-color: black;
+    border-radius: 32px;
+}
+
+.profileImg {
+    width: 170px;
+    height: 170px;
+    border-radius: 90px;
+    /* background-color: gray;  */
+    margin: 10px;
+}
+
+.likeMovie {
+    height: 170px;
+    width: 120px;
+    background-color: grey;
+    margin: 2px
+}
+
+
+

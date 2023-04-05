@@ -1,0 +1,31 @@
+.login_wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.login_contentBox {
+    width: 70%;
+    height: 100vh;
+    background-color: rgba(15, 15, 16, 0.7);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.login_title {
+    height: 10vh;
+    margin-top: 50px;
+}
+
+.login_centerBox {
+    height: 40vh;
+    background-color: pink;
+}
+
+.loginPageAutoSlider {
+    width: 100%;
+}

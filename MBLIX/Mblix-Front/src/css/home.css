@@ -1,0 +1,20 @@
+.nav-item {
+    color: white;
+    margin-right: 10px;
+
+}
+
+.home_wrapper {
+    color: white;
+}
+
+.carousel-item {
+    width: 100px;
+    height: 200px;
+    background-color: white;
+}
+
+.carousel-inner {
+    width: 100px;
+    height: 200px;
+}

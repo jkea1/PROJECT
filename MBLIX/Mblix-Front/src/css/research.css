@@ -1,0 +1,96 @@
+.research_wrapper {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(15, 15, 16, 0.7); 
+    display: flex;
+    flex-direction: column;
+}
+
+.research_title {
+    width: 100vh;
+    margin: 8% auto;
+    margin-bottom: 4%; 
+    text-align: center;
+}
+
+.research_logo {
+    height: 10vh;
+    margin-bottom: 20px;
+}
+
+.research_subtitle {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 48px;
+    color: #FFFFFF;
+}
+
+.research_movie {
+    /* color: white; */
+    margin-bottom: 6%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.research_main {
+    display: flex;
+    flex-direction: column;
+  /*   justify-content: center; */
+    align-items: center;
+    text-align: center;
+    margin: 1%;
+}
+
+.research_poster {
+    width: 150px;
+    height: 210px;
+    margin-bottom: 0px;
+}
+
+.research_poster_name {
+    margin-top: 10px;
+    color: white;
+}
+.research_preference_like {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    color: red;
+    font-size: 20px;
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
+}
+
+.research_nextBtn_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.research_nextBtn {
+    /* margin: 0, 30px; */
+    width: 110px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 39px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    background: rgba(15, 15, 16, 0.7);
+    border: 2px solid #FFFFFF;
+    border-radius: 50px;
+    /* margin-bottom: 50px; */
+}
+
